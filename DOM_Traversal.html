@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Jquery DOM Traversal</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    </head>
+    <body>
+        <!--This is for Next and nextAll()-->
+        <div>
+            <h1>This Is next and nextAll</h1>
+            <p>This is a next paragraph Tag</p>
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+        </div>
+
+        <!--This is for prev() and prevAll()-->
+        <div>
+            <h2>this is for prev and prevAll</h2>
+            <p id="prev">This is prev paragraph</p>
+            <ol id="prev2">
+                <li>Hello</li>
+                <li>Bye</li>
+                <li>Tata</li>
+                <li id="prevall">See You</li>
+            </ol>
+        </div>
+
+        <!--This is for before() and after()-->
+        <div>
+            <p id="before">This is before() method</p>
+            <p id="after">this is after() method</p>
+        </div>
+
+        <!--This is for siblings()-->
+        <div>
+            <h1 id="sibling1">This is sibling H1 tag</h1>
+        `   <p id="sibling2">This is sibling para tag</p>
+            <ol id="sibling3">
+                <li id="sibling4">This is sibling ol-li tag</li>
+                <li id="sibling5">This is sibling ol-li2 tag</li>
+            </ol>
+        </div>
+
+        <!--This is for parent()-->
+        
+        <div id="parent">
+            <h1 id="parent1">This is parent H1 tag</h1>
+        `   <p id="parent2">This is parent para tag</p>
+            <ol id="parent3">
+                <li id="parent4">This is parent ol-li tag</li>
+                <li id="parent5">This is parent ol-li2 tag</li>
+            </ol>
+        </div>
+
+        <!--This is for parent()-->
+        <div id="child">
+            <h1>This is child of Div</h1>
+            <p>This is Para child for div</p>
+        </div>
+
+
+
+
+        <script src="DOM_trav.js"></script>
+    </body>
+</html>
